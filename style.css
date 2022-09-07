@@ -1,0 +1,324 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+.{
+    font-family: 'DynaPuff', cursive;
+    box-sizing:border-box ;
+}
+ 
+html{
+    scroll-behavior: smooth;
+}
+body{
+  margin:0 ;  
+  padding: 0;
+  background-color:#000000 ;
+}
+ul{
+    list-style: none;
+
+}
+a{
+ text-decoration: none;   
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+   outline: none; 
+   border: none;
+}
+.logo img{
+    width: 170px;
+}
+.main{
+    width:100% ;
+    height:768px ;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./poster2.png);
+}
+.main-heading{
+    font-family:'DynaPuff' ;
+    font-size:xx-large;
+    width:500px;
+    position: absolute;
+    left:50%;
+    top:50% ;
+    text-align: center;
+    transform:translate(-50%,-50%) ;
+    background: #000000;
+    box-shadow: 5px 10px 30px rgb(0, 0, 0);
+}
+.main-heading span {
+    color: #2aed5e;
+    border-bottom: 2px solid #6ef431;
+}
+.main-heading.details{
+   color: #000000; 
+}
+.main-heading h1{
+    font-family:'DynaPuff' ;
+    font-size: 46px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 5px 10px 30px rgb(255, 255, 255);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 1;
+	background-color: #ffffff;
+}
+nav ul{
+	display: flex;
+}
+.active{
+    background-color: #2cf66c;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(255, 255, 255, 0.411);
+	transition: all ease 0.2s;
+}
+nav ul li a{
+    font-family: DynaPuff;
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#000000;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+nav ul li a:hover{
+	background-color: #42ef47;
+    color:#ffffff;
+	box-shadow: 5px 10px 30px rgba(198, 64, 64, 0.411);
+	transition: all ease 0.2s;
+}
+nav .menu-btn,
+.menu-icon{
+		display:none;
+	}
+    /*****HEADER AREA COMPLETE*****/
+
+    /*********idea**********/
+    #idea{
+        width:100%;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:40px 3% 0px 3%;
+        position: relative; 
+        height:768px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./poster2.png);
+    }
+    .idea-text{
+        width: 45%;
+        color: #ffffff;
+        text-align: justify;
+        font-family:Dynapuff;
+    }
+    .idea-text h2{
+        font-size:2.3rem;
+        color: #000000;
+        font-weight: 600;
+        text-align: justify;
+        font-family:Dynapuff;
+    }
+   
+    .idea-text h3{
+        font-size:2.3rem;
+        color: #24e824;
+        font-weight: 600;
+        text-align: justify;
+        font-family:Dynapuff;
+    }
+    /************about boursa alkuwait************/
+    #عن-بورصة-الكويت {
+        width:100%;
+        height:120vh;
+        background-color: #2aed5e;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:50px 5% 0px 5%;
+        position: relative;
+    }
+    
+    .about-text{
+        width: 45%;
+        color: #ffffff;
+    }
+    .about-text h2{
+        font-size:2.3rem;
+        color: #000000;
+        font-weight: 600;
+    }
+    .about-text p{
+        font:1.2rem;
+        color: rgb(2, 57, 9);
+    }
+    .img1{
+        width:50%;
+    }
+    .img1 img{
+        width:600px;
+    }
+    /****************about boursa alkuwait is done**********/
+/*************الاسهم*************/
+/*************تواصل معنا ***********/
+body{
+    background-color: #ffffff;
+    background-image:url(./background.jpg);
+    height:100vh;
+    font-family: 'DynaPuff', cursive;
+    text-transform: uppercase;
+    margin:0;
+}
+#contactme{
+   background-color: #24e824; 
+   width:80%;
+   text-align: center;
+   margin:100px;
+   padding:50px;
+   border-top:15px solid #109215;
+   font-size: xx-large;
+}
+.contactme h1{
+   margin-bottom:25px ; 
+   margin-top:0;
+   font-size:60px;
+   font-weight:bolder;
+   color: #24e824;
+}
+form{
+    padding:50px;
+    width:50%;
+    margin: auto;
+}
+.field{
+    margin-bottom:25px;
+    width:100%;
+    display: grid;
+    position: relative;
+}
+label{
+    color: #109215;
+    background-color: rgb(255, 255, 255)
+     font-size: xx-large
+    letter-spacing:2px;
+    width:700px;
+    padding:0;
+    font-weight: bolder;
+}
+.input{
+    height:50px;
+    outline: none;
+    width:700px;
+    padding-left:20%;
+    box-sizing: border-box;
+}
+.field.hover label{
+    width:80%;
+    background-color: #6ef431;
+    color: #fefefec4;
+    transition:all 0.5s ease-in-out;
+}
+/****************contact us is done***************/
+@media(max-width:1100px){.menu-icon{
+    display:block;}
+        nav{
+            justify-content: space-between;
+            height: 65px;
+            padding: 0px 30px;
+        }
+        .menu{
+            display:none;
+            position:absolute;
+            top:65px;
+            left:0px;
+            background-color:#000000;
+            border-bottom:4px solid #34e065;
+            width:100%;
+            padding:0px;
+            margin:0px;
+        }
+        .menu li{
+            width:100%;
+        }
+        nav .menu li a{
+            width:100%;
+            height:40px;
+            justify-content: center;
+            align-items: center;
+            margin:0px;
+            padding: 25px;
+            border:1px solid rgba(38,38,38,0.03);
+        }
+        nav .menu-icon{
+            cursor:pointer;
+            float:right;
+            padding:28px 20px;
+            position:relative;
+            user-select: none;
+        }
+        nav .menu-icon .nav-icon{
+            background-color:#ffffff;
+            display:block;
+            height:2px;
+            position:relative;
+            transition: background 0.2s ease-out;
+            width:18px;
+        }
+        nav .menu-icon .nav-icon:before,
+        nav .menu-icon .nav-icon:after{
+            background:rgb(255, 255, 255);
+            content:'';
+            display:block;
+            height:100%;
+            position:absolute;
+            transition:all ease-out 0.2s;
+            width:100%;
+        }
+        nav .menu-icon .nav-icon:before{
+            top:5px;
+        }
+        nav .menu-icon .nav-icon:after{
+            top:-5px;
+        }
+        nav .menu-btn:checked ~ .menu-icon .nav-icon{
+            background:transparent;
+        }
+        nav .menu-btn:checked ~ .menu-icon .nav-icon:before{
+            transform: rotate(-45deg);
+            top:0;
+        }
+        nav .menu-btn:checked ~ .menu-icon .nav-icon:after{
+            transform: rotate(45deg);
+            top:0;
+        }
+        nav .menu-btn{
+            display:none;
+        }
+        nav .menu-btn:checked ~ .menu{
+            display:block;
+        }
+}

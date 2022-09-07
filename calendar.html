@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BQ8</title>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="icon" type="image" href="./logo.png">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section class="main">
+        <nav>
+        <a href="#" class="logo">
+             <img src="./logo.png" alt="logo">
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+            <li><a href="./home.html">الصفحة الرئيسية</a></li>
+            <li><a href="./stocks.html">الاسهم</a></li>
+            <li><a href="./how.html">طريقة التسجيل</a></li>
+            <li><a href="عن-بورصة-الكويت">عن بورصة الكويت</a></li>
+            <li><a href="./calendar.html" class="active"> مواعيد الجمعيات</a></li>
+            <li><a href="contactme">تواصل معنا</a></li>
+        </ul>
+        </nav>
+        <div  class="calendar">
+            <div class="calendar-header">
+                <span class="month-picker" id="month-picker">
+                    September
+                </span>
+                <div class="year-picker">
+                    <span class="year-change" id="prev-year">
+                        <pre><</pre>
+                    </span>
+                    <span id="year">2022</span>
+                    <span class="year-change" id="next-year">
+                        <pre>></pre>
+                    </span>
+                </div>
+            </div>
+            <div class="calendar-body">
+                <div class="calendar-week-day">
+                    <div>sun</div>
+                    <div>mon</div>
+                    <div>tue</div>
+                    <div>wed</div>
+                    <div>thu</div>
+                    <div>fri</div>
+                    <div>sat</div>
+                </div>
+                <div class="calendar-days">
+                    <div>1
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
+                    <div>6</div>
+                    <div>7</div>
+                </div>
+            </div>
+            <div class="calendar-footer">
+                <div class="toggle">
+                    <span>Dark Mode</span>
+                    <div class="dark-mode-switch">
+                        <div class="dark-mode-switch-ident"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="month-list"></div>
+        </div>
+</body>
+</html>
